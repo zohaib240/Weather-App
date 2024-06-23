@@ -3,32 +3,43 @@
     margin: 0%;
     padding: 0%;
 }
-
-
-
+body{
+    background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100vh;
+}
 .full-img{
     background-image: url('asset/pexels-codioful-7130488.jpg');
 }
 .glass{
-    width:50rem ;
+    width:52rem ;
     color: black;
     display: flex;
     justify-content: center;
     align-items: center;
     justify-content: space-between;
     padding-right: 1rem;
-    border-radius: 5px;
+    border-radius: 2rem;
     height: 3rem;
-    border: 1px solid black;
+    border: transparent;
+    transition: all 0.3s ease-in-out;
+
 }
 
 .input-2{
     width: 96%;
     height: 3rem;
-    border-radius: 5px;
+    border-radius: 2rem;
     padding: 1rem;
+    cursor: pointer;
+    border: transparent;
+    transition: all 0.3s ease-in-out;
     
 }
+.input-2:focus-visible{
+    outline: 0px;
+    transform: scale(1.03);
+  }
 .input-2:hover{
 transform-style: preserve-3d;
 }
@@ -42,11 +53,14 @@ transform-style: preserve-3d;
 
 .btn-2{
     width: 10rem;
-    height: 4rem;
-    border-radius: 10px;
-    background-color: rgb(255, 187, 0);
+    height: 3rem;
+    border-radius: 2rem;
+    background-color: rgb(243, 241, 235);
     font-weight:initial;
     font-size: 120%;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+
 }
 
 /* media quary */
@@ -60,3 +74,6 @@ transform-style: preserve-3d;
 }
 
 
+.m-div{
+    width: 20rem;
+}
