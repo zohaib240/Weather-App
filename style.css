@@ -3,6 +3,10 @@
     margin: 0%;
     padding: 0%;
 }
+.nav-1{
+    font-family: "Poppins", sans-serif;  
+}
+
 body{
     background-repeat: no-repeat;
   background-size: cover;
@@ -12,6 +16,7 @@ body{
     background-image: url('asset/pexels-codioful-7130488.jpg');
 }
 .glass{
+    font-family: "Poppins", sans-serif;  
     width:52rem ;
     color: black;
     display: flex;
@@ -27,6 +32,7 @@ body{
 }
 
 .input-2{
+    font-family: "Poppins", sans-serif;  
     width: 96%;
     height: 3rem;
     border-radius: 2rem;
@@ -52,12 +58,13 @@ transform-style: preserve-3d;
 }
 
 .btn-2{
+    background-color: 	#ffd966;
+    font-family: "Poppins", sans-serif;  
     width: 10rem;
     height: 3rem;
     border-radius: 2rem;
-    background-color: rgb(243, 241, 235);
     font-weight:initial;
-    font-size: 120%;
+    font-size: 100%;
     transition: all 0.3s ease-in-out;
     cursor: pointer;
 
